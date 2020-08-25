@@ -11,6 +11,12 @@
 
     <artifactId>cloud-consumer-order80</artifactId>
     <dependencies>
+        <!--引入commons 里面公共的实体-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!--包含了sleuth+zipkin-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -38,11 +44,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
-            <artifactId>springcloud</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <!--热部署-->
         <dependency>
