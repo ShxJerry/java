@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4147a00-7591-4dc4-9f16-c611f82ee28d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598237667875</updated>
       <workItem from="1598237670479" duration="11369000" />
-      <workItem from="1598255333946" duration="31104000" />
+      <workItem from="1598255333946" duration="31641000" />
     </task>
     <task id="LOCAL-00001" summary="--user=海哥  消费者创建">
       <created>1598262901597</created>
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598426801379</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="--user=海哥 服务的发现">
+      <created>1598429047544</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598429047544</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +298,8 @@
     <MESSAGE value="--user=海哥 Eurekaserver 7001/7002 提供者8001/8002 集群配置完成" />
     <MESSAGE value="--user=海哥 主机名称的修改" />
     <MESSAGE value="--user=海哥 主机名称的修改和ip的修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="--user=海哥 主机名称的修改和ip的修改" />
+    <MESSAGE value="--user=海哥 服务的发现" />
+    <option name="LAST_COMMIT_MESSAGE" value="--user=海哥 服务的发现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="95" key="#Inspections" timestamp="1598252169150">
@@ -311,14 +318,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1211" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598241412409" />
-    <state x="530" y="55" key="CommitChangelistDialog2" timestamp="1598426800685">
+    <state x="530" y="55" key="CommitChangelistDialog2" timestamp="1598429044631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598426800685" />
-    <state x="184" y="91" width="1536" height="861" key="DiffContextDialog" timestamp="1598426110092">
+    <state x="530" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598429044631" />
+    <state x="184" y="91" width="1536" height="861" key="DiffContextDialog" timestamp="1598429020880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="91" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598426110092" />
+    <state x="184" y="91" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598429020880" />
     <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1598251487335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="121" width="1230" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598256378711" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1598426802646">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1598429054715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598426802646" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598429054715" />
     <state x="719" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598425295410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
